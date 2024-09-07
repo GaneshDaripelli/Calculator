@@ -35,7 +35,7 @@ claculateBtn.onclick = function() {
             finalResult.value = divisionValue;
         }
         else if (symbolValue === "%") {
-            let divisionValue = (firstParsedValue/secondParsedValue)*100;
+            let divisionValue = (firstParsedValue*secondParsedValue)/100;
             finalResult.value = divisionValue;
         }
         
